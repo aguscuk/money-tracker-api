@@ -1,4 +1,5 @@
-require('@google-cloud/debug-agent').start()
+require('dotenv').config()
+//require('@google-cloud/debug-agent').start()
 
 const express = require('express')
 const app = express()
